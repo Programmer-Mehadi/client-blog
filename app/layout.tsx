@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
+import "draft-js/dist/Draft.css"
 import { StoreProvider } from "@/app/store/StoreProvider"
 import { Toaster } from "react-hot-toast"
 import AuthProvider from "@/app/store/AuthProvider"
