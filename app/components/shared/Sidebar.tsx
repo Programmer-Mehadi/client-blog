@@ -5,16 +5,6 @@ import React, { useEffect } from "react"
 import { usePathname } from "next/navigation"
 const sidebarData = [
   {
-    text: "Profile",
-    link: "/dashboard/profile",
-    children: [
-      {
-        text: "Edit Profile",
-        link: "/dashboard/profile/edit",
-      },
-    ],
-  },
-  {
     text: "Blog",
     link: "/dashboard/blog",
     children: [
@@ -35,6 +25,16 @@ const sidebarData = [
       {
         text: "Comment List",
         link: "/dashboard/comment/list",
+      },
+    ],
+  },
+  {
+    text: "Profile",
+    link: "/dashboard/profile",
+    children: [
+      {
+        text: "Edit Profile",
+        link: "/dashboard/profile/edit",
       },
     ],
   },
